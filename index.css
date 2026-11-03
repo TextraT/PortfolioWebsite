@@ -12,10 +12,287 @@ body{
     background-color: #56679c;
 }
 
-/* phone stuff */
+/* phone screen */
 @media screen and (max-width: 600px){
-    body, main, footer{
-        width: 100%;
+    body{
+        display: inline;
+        background-color: #22346d;
+    }
+    body #sec1 .navbar ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        background-color: #56679c;
+        padding: none;
+        margin: none;
+        overflow: hidden;
+        width: 180px;
+        height: 400px;
+        border-radius: 5px;
+    }
+    body #sec1 .navbar a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: none;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        font-size: 1.5em;
+        margin-left: 2px;
+        transition: background-color 0.25s;
+    }
+    #sec1 .navbar li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* SEC 1 */
+
+    body #sec1{
+        background-color: #22346d;
+        height: 1250px;
+        width: 600px;
+        overflow: hidden;
+    }
+    #sec1 #herowhole{
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+    }
+    #sec1 #herowhole #isaac{
+        height: 100px;
+        width: 400px;
+        padding: 25px;
+        margin-right: 200px;
+        border-radius: 15%;
+        filter: drop-shadow(5px 5px 10px black);
+    }
+
+    #sec1 #herowhole h1{
+        padding: 0px;
+        color: white;
+        margin-right: 190px;
+        font-size: 2em;
+    }
+
+    /* SEC 2 */
+
+    body #sec2Header #sec2HeaderWHOLE, body #sec3Header #sec3HeaderWHOLE, body #sec5Header #sec5HeaderWHOLE, body #foot1Header #foot1HeaderWHOLE{
+        margin-left: 20px;
+    }
+    body #sec2Header{
+        display: inline;
+        height: 400px;
+        width: 700px;
+        background-color: #22346d;
+        overflow: hidden;
+    }
+
+    body main #sec2{
+        background-color: #22346d;
+        height: 900px;
+        overflow: hidden;
+    }
+    body main #sec2 #sec2WHOLE{
+        display: flex;
+        flex-direction: column;
+        column-gap: 100px;
+    }
+    body #sec2 #box2{
+        height: 500px;
+        width: 350px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+    body #sec2 #box2 #text1{
+        text-align: center;
+        font-size: 2em;
+        margin-left: 0px;
+        margin-top: 30px;
+
+    }
+    body #sec2 #box2 #text2{
+        margin-top: 50px;
+    }
+    body #sec2 #box2 #text2, body #sec2 #box2 #text3{
+        text-indent: 20px;
+        font-family: sans-serif;
+        color: white;
+        font-size: 1.5em;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    body main #sec2 #sec2WHOLE #box3{
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    body #sec2 #sec2WHOLE #college{
+        height: 230px;
+        padding: 0px;
+        border-radius: 20px;
+        float: none;
+    }
+
+    /* SEC 3 */
+
+    body main #sec3{
+        background-color: #22346d;
+        height: 880px;
+        overflow: hidden;
+    }
+    body #sec3 #sec3WHOLE{
+        display: flex;
+        flex-direction: column;
+    }
+    body #sec3 #sec3WHOLE #uni{
+        height: 300px;
+        width: 350px;
+        margin-left: 23px;
+    }
+    body #sec3 #sec3WHOLE #box2{
+        height: 300px;
+        width: 350px;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    body #sec3 #box2 #text1{
+        font-family: sans-serif;
+        color: white;
+        font-size: 1.8em;
+        margin-left: 0px;
+        text-align: center;
+    }
+    body #sec3 #sec3WHOLE #box2 #text2, body #sec3 #sec3WHOLE #box2 #text3, body #sec3 #sec3WHOLE #box2 #text4{
+        text-indent: 8px;
+        font-family: sans-serif;
+        color: white;
+        font-size: 1.25em;
+    }
+    body #sec3 #box{
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+    }
+    body #sec3 #text5{
+        font-family: sans-serif;
+        color: white;
+        font-size: 1.7em;
+    }
+
+    /* SEC 4 */
+
+    #sec4{
+        background-color: #2148a5;
+        height: 380px;
+        overflow: hidden;
+    }
+    #sec4 #header #title{
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        color: white;
+        font-size: 1.4em;
+    }
+    #sec4 #sec4WHOLE{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    /* SEC 5 */
+
+    body #sec5{
+        background-color: #22346d;
+        height: 1390px;
+        overflow: hidden;
+    }
+    #sec5 #sec5WHOLE{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    #sec5 #sec5WHOLE #box1{
+        background-color: #4d67b6;
+        height: 530px;
+        width: 350px;
+        margin-left: 30px;
+    }
+    #sec5 #sec5WHOLE #box1 #text1{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    #sec5 #sec5WHOLE #box1 #text2, #sec5 #sec5WHOLE #box1 #text3{
+        font-size: 1.6em;
+    }
+    #sec5 #sec5WHOLE #btnContainer{
+        margin-top: 60px;
+    }
+    #sec5 #sec5Layer2 #box2{
+        background-color: #50b750;
+        height: 530px;
+        width: 350px;
+    }
+    #sec5Layer2 #box2 #text1{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    #sec5Layer2 #box2 #text2{
+        margin-top: 50px;
+    }
+    #sec5Layer2 #box2 #text2, #sec5Layer2 #box2 #text3{
+        font-size: 1.6em;
+    }
+    #sec5Layer2 #box2 #text4{
+        font-size: 1.8em;
+        margin-bottom: 50px;
+    }
+
+    /* FOOTER */
+
+    body #foot1{
+        background-color: #22346d;
+        height: 325px;
+        overflow: hidden;
+    }
+    #foot1 #foot1WHOLE{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    body #foot1 #foot1WHOLE #box1{
+        height: 159px;
+        width: 180px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 0px;
+    }
+    body #foot1 #foot1WHOLE #box2{
+        height: 160px;
+        width: 160px;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    body #foot1 #foot1WHOLE .fa-solid.fa-envelope.fa-10x{
+        width: 10px;
+        height: 10px;
+        margin-right: 150px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    body #foot1 #foot1WHOLE #box1{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    body #foot1 #foot1WHOLE #box2 #linkedin1 #linkedin2{
+        width: 10px;
+        height: 10px;
+        margin-right: 128px;
     }
 }
 
