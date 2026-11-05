@@ -296,6 +296,8 @@ body{
         width: 10px;
         height: 10px;
         margin-right: 128px;
+    }
+    body #foot1 #foot1WHOLE .fa-brands.fa-linkedin.fa-10x{
         margin-top: 0px;
     }
 }
