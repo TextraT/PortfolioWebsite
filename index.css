@@ -13,10 +13,11 @@ body{
 }
 
 /* phone screen */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 390px){
     body{
         display: inline;
         background-color: #22346d;
+        width: 390px;
     }
     body #sec1 .navbar ul{
         display: flex;
@@ -51,19 +52,20 @@ body{
     body #sec1{
         background-color: #22346d;
         height: 1250px;
-        width: 600px;
+        width: 390px;
         overflow: hidden;
     }
     #sec1 #herowhole{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin: 100px;
     }
     #sec1 #herowhole #isaac{
         height: 100px;
         width: 400px;
         padding: 25px;
-        margin-right: 200px;
+        margin-right: 0px;
         border-radius: 15%;
         filter: drop-shadow(5px 5px 10px black);
     }
@@ -71,7 +73,7 @@ body{
     #sec1 #herowhole h1{
         padding: 0px;
         color: white;
-        margin-right: 190px;
+        margin-right: 0px;
         font-size: 2em;
     }
 
@@ -95,6 +97,7 @@ body{
     }
     body main #sec2 #sec2WHOLE{
         display: flex;
+        justify-content: center;
         flex-direction: column;
         column-gap: 100px;
     }
@@ -126,7 +129,7 @@ body{
     body main #sec2 #sec2WHOLE #box3{
         width: 200px;
         margin-top: 50px;
-        margin-left: 80px;
+        margin-left: 75px;
     }
     body #sec2 #sec2WHOLE #college{
         height: 230px;
@@ -149,14 +152,14 @@ body{
     body #sec3 #sec3WHOLE #uni{
         height: 300px;
         width: 350px;
-        margin-left: 23px;
+        margin-left: 18px;
     }
     body #sec3 #sec3WHOLE #box2{
         height: 300px;
         width: 350px;
         margin-right: 0px;
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 20px;
     }
     body #sec3 #box2 #text1{
         font-family: sans-serif;
@@ -218,7 +221,7 @@ body{
         background-color: #4d67b6;
         height: 530px;
         width: 350px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     #sec5 #sec5WHOLE #box1 #text1{
         font-size: 1.8em;
@@ -631,7 +634,7 @@ body{
 }
 #sec5WHOLE #github a{
     color: white;
-    font-family: Roboto;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 2em;
 }
 #sec5Layer2{
