@@ -718,6 +718,7 @@ body{
 #foot1 #foot1WHOLE .fa-brands.fa-linkedin.fa-10x{
     color:hsl(214, 100%, 67%);
     transition: color 0.25s;
+    margin-top: 10px;
 }
 #foot1 #foot1WHOLE .fa-brands.fa-linkedin.fa-10x:hover{
     color: hsl(214, 100%, 57%);
@@ -727,10 +728,13 @@ body{
     width: 220px;
     background-color: white;
     border-radius: 20px;
+    margin-top: 5px;
+    filter: drop-shadow(3px 3px 8px black);
 }
 #foot1 #foot1WHOLE #box2{
     height: 180px;
     width: 200px;
     background-color: white;
     border-radius: 20px;
+    filter: drop-shadow(3px 3px 8px black);
 }
